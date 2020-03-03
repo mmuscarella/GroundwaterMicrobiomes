@@ -44,3 +44,9 @@ New batch file saved and uploaded:  scp GWQ.batch rosalind:~/GW/analysis/
 
 ## Batch RUN
 mothur GWQ.batch
+It took 51379 seconds to run 42 commands from GWQ.batch batch file: 14.27 hrs for the full pipeline
+
+## Download Final Files and Compress Fasta
+scp rosalind:~/GW/analysis/*final* ./
+tar -czvf ./GWQ.bac.final.rep.fasta.tar.gz ./GWQ.bac.final.rep.fasta
+tar -czvf GWQ.bac.tax.final.rep.fasta.tar.gz GWQ.bac.tax.final.rep.fasta 
