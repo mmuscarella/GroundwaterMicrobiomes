@@ -1,0 +1,5 @@
+ .DS_Store
+data/*.fasta
+data/GWQ.bac.final.rep.fasta
+data/GWQ.bac.tax.final.rep.fasta
+
